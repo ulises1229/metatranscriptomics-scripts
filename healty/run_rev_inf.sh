@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition FAST
 #SBATCH --nodes=1
-#SBATCH --cpus-per-task=32
+#SBATCH --cpus-per-task=16
 #SBATCH --mem=31G
 #SBATCH --time=40-15:15:00     # 1 day 15hours and 15 minutes
 #SBATCH --output=s3-inf-rev-%j.out
